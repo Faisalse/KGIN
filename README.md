@@ -15,8 +15,7 @@
   <li>Move into the <b>KGIN</b> directory</li>
   
   <li>Run the command to mount the current directory <i>KGIN</i> to the docker container named as <i>KGIN_container</i>: <code>docker run --name KGIN_container  -it -v "$(pwd):/KGIN" -it shefai/intent_aware_recomm_systems</code>. If you have the support of CUDA-capable GPUs then run the following command to attach GPUs with the container: <code>docker run --name KGIN_container  -it --gpus all -v "$(pwd):/KGIN" -it shefai/intent_aware_recomm_systems</code></li> 
-<li>If you are already inside the runing container then run the command to navigate to the mounted directory <i>Intent_Aware_Recomm_Systems</i>: <code>cd /Intent_Aware_Recomm_Systems</code> otherwise starts the "KGIN_container"</li>
-<li>Finally, follow the given instructions to run the experiments for each model </li>
+<li>Finally, follow the given instructions to run the experiments for KGIN and baseline models </li>
 </ul> 
 
 <h5>Using Anaconda</h5>
