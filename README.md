@@ -34,7 +34,6 @@
 
 
 <h4>Follow these steps to reproduce the results for KIGN and baseline models</h4>
-<h5>KIGN and baseline models</h5>
 <ul>
 <li>Run this command to reproduce the experiments for the KGIN and baseline models on the lastFm dataset: <code>python run_experiments_for_KGIN_baselines_algorithms.py --dataset lastFm</code>  </li>
 <li>Run this command to reproduce the experiments for the KGIN and baseline models on the alibabaFashion dataset: <code>python run_experiments_for_KGIN_baselines_algorithms.py --dataset alibabaFashion</code>  </li>
